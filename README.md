@@ -1,34 +1,12 @@
-# fivesquared
+## Steps I used to set project up
 
-## Project setup
-```
-npm install
-```
-
-### Compiles and hot-reloads for development
-```
-npm run serve
-```
-
-### Compiles and minifies for production
-```
-npm run build
-```
-
-### Run your unit tests
-```
-npm run test:unit
-```
-
-### Run your end-to-end tests
-```
-npm run test:e2e
-```
-
-### Lints and fixes files
-```
-npm run lint
-```
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+1. vue create <app-name>
+2. vue add tailwind
+3. npm i :
+   @headlessui/vue,
+   @heroicons/vue,
+   @tailwindcss/custom-forms,
+   @tailwindcss/line-clamp,
+   @tailwindcss/typography
+   
+For the vue project I selected Typescript as my language for compiling
